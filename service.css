@@ -1,0 +1,99 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(63, 49, 214);
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    padding: 10px 30px;
+    position: fixed;
+
+}
+.navbar a{
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 30px;
+           
+}
+.navbar a:hover{
+    color:rgb(202, 187, 187);
+  
+}
+.welcome {
+    padding: 100px 200px;
+    
+
+    
+    
+}
+.par{
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+.imge{
+    width: 900px;
+    height: 700px;
+}
+main{
+    display: flex;   
+}
+button:hover{
+    background-color:rgb(255, 0, 0);
+
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title{
+    margin-right: 60px;
+    margin-left: 100px;
+    font-style: italic;
+    background-color: rgb(235, 222, 206);
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 20px;
+}
+.srv1{
+    background-color: white;
+    width: 700px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    padding: 20px;
+    margin: 10px;
+    transition: 0.7s ease;
+    border-radius: 20px;
+}
+.srv1:hover{
+    transform: scale(1.1);
+}
+.srv2{
+    background-color: white;
+    width: 700px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    padding: 20px;
+    margin: 10px;
+    transition: 0.7s ease;
+    border-radius: 20px;
+}
+.srv2:hover{
+    transform: scale(1.1);
+}
+.srv3{
+    background-color: white;
+    width: 700px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    padding: 20px;
+    margin: 10px;
+    transition: 0.7s ease;
+    border-radius: 20px;
+}
+.srv3:hover{
+    transform: scale(1.1);
+}
